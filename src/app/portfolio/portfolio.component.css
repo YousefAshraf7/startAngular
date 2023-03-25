@@ -1,0 +1,16 @@
+.portfolio .box:hover .layer{
+    opacity: 1;
+    
+}
+.portfolio .box .layer{
+    background-color: rgba(26, 188, 156,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
